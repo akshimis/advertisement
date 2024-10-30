@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/InterVariable.ttf);
+    font-style: normal italic;
+    font-weight: 100 900;
+}
+
+.container {
+    position: absolute;
+    width: 160px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    border: #805769 2px solid;
+    background-color: #805769;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image {
+    position: absolute;
+    max-height: 100%;
+    width: 300px;
+    right: 0px;
+}
+
+.logo {
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    width: auto;
+    height: 25px;
+    transform: translate(-50%, 0);
+    /* padding: 5%;
+    background-color: #f9d7e5; */
+}
+
+.title {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    margin: auto;
+    margin-top: 300px;
+    color: #f9d7e5;
+    background-color: black;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    padding: 4px;
+}
+
+.text {
+    font-family: "Inter";
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    margin: auto;
+    margin-top: 375px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.italic {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 100;
+}
+
+.bold {
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.button {
+    font-family: "Inter";
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1px;
+    margin: auto;
+    margin-top: 480px;
+    display: block;
+    border: solid 2px #f9d7e5;
+    width: 100px;
+    line-height: 24px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.button:hover {
+    color: black;
+    background: #f9d7e5;
+    transition: 0.4s;
+}
